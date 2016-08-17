@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi primera pagina</title>
+	<link rel="stylesheet" href="css/materialize.min.css">
+	
+	<script type="text/javascript">
+		
+	function enlace(){
+		alert("Diste click");
+	}
+
+	
+	document.addEventListener("click",function(){document.getElementById('mi_img');alert("Esta es una imagen");});
+
+	</script>
+
+
+
+
+</head>
+<body>
+					<!-- <div class="card-panel deep-orange">
+						
+					<span>Hola Mundo</span>
+
+					</div> -->	
+
+	<nav>
+		<div class="nav-wrapper">
+				<ul>
+					<li><a href="#" onmouseover="enlace()" >Enlace 1</a></li>
+					<li><a href="#">Enlace 2</a></li>
+					<li><a href="#">Enlace 3</a></li>
+				</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+			<div class="row">				
+				<div class="col s2">
+					<img src="images/logo.jpg" class="responsive-img circle z-depth-1">	
+						<table border="1">
+							<tr>
+								<th><img src="images/degustadores.svg" class="responsive-img"></th>
+								<th>Degustadores</th>
+							</tr>
+							<tr>
+								<th><img src="images/blog.svg" class="responsive-img"></th>
+								<th>Blog</th>
+							</tr>
+							<tr>
+								<th><img src="images/lista.svg" class="responsive-img"></th>
+								<th>La lista</th>
+							</tr>
+							<tr>
+								<th><img src="images/camara.svg" class="responsive-img" ></th>
+								<th>Contribucion</th>
+							</tr>
+							<tr>
+								<th><img src="images/acercade.svg" class="responsive-img"></th>
+								<th>Acerca de</th>
+							</tr>
+						</table>
+				</div>
+			<div class="col s10">
+				<img src="images/fondo.jpeg" class="responsive-img z-depth-5" id="mi_img">
+			</div>
+		</div>
+
+	<div class="container">
+			<div class="row">
+				<div class="col s6">	
+				</div>
+				<div class="col s4">
+					<input type="text" placeholder="Correo Electronico">	
+				</div>
+				<div class="col s2">
+					<a href="https://mail.google.com/" class="btn" aling="center">Subscribe</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col s3">
+					<div class="card  teal darken- white-text">
+						<div class="card-image">
+							<img src="images/enchiladas.jpg">
+
+						</div>
+						<div class="card-content">
+							<h1 class="card-title activator">Enchiladas</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+						</div>
+						<div class="card-reveal ">
+							<h1 class="card-title activator">Enchiladas</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+							Dependiendo del estilo, la enchilada puede ir acompañada o rellena de carnes —pollo, pavo, res— o queso; además de ser acompañada de alguna guarnición adicional, que generalmente consiste en cebolla fresca picada o en rodajas, lechuga, crema de leche y queso.
+						</div>
+						<div class="card-action">
+							<p>Agosto 23, 2016</p><a href="#">Read</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card">
+						<div class="card-image">
+							<img src="images/pambazo.jpeg">
+
+						</div>
+						<div class="card-content">
+							<h1 class="card-title ">Pambazos</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+						</div>
+						<div class="card-reveal ">
+							<h1 class="card-title ">Pambazos</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+							Dependiendo del estilo, la enchilada puede ir acompañada o rellena de carnes —pollo, pavo, res— o queso; además de ser acompañada de alguna guarnición adicional, que generalmente consiste en cebolla fresca picada o en rodajas, lechuga, crema de leche y queso.
+						</div>
+						<div class="card-action">
+							<p>Agosto 23, 2016</p><a href="#">Read</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card ">
+						<div class="card-image">
+							<img src="images/pollo.jpg">
+
+						</div>
+						<div class="card-content">
+							<h1 class="card-title ">Pollo</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+						</div>
+						<div class="card-reveal ">
+							<h1 class="card-title ">Pollo</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+							Dependiendo del estilo, la enchilada puede ir acompañada o rellena de carnes —pollo, pavo, res— o queso; además de ser acompañada de alguna guarnición adicional, que generalmente consiste en cebolla fresca picada o en rodajas, lechuga, crema de leche y queso.
+						</div>
+						<div class="card-action">
+							<p>Agosto 23, 2016</p><a href="#">Read</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col s3">
+					<div class="card ">
+						<div class="card-image">
+							<img src="images/tacos.jpg">
+
+						</div>
+						<div class="card-content">
+							<h1 class="card-title ">Tacos</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+						</div>
+						<div class="card-reveal ">
+							<h1 class="card-title">Tacos</h1>
+							La enchilada es un plato que en México se elabora con tortilla de maíz bañada en alguna salsa picante utilizando chile en su preparación. 
+							Dependiendo del estilo, la enchilada puede ir acompañada o rellena de carnes —pollo, pavo, res— o queso; además de ser acompañada de alguna guarnición adicional, que generalmente consiste en cebolla fresca picada o en rodajas, lechuga, crema de leche y queso.
+						</div>
+						<div class="card-action">
+							<p>Agosto 23, 2016</p><a href="#">Read</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+				<div class="col s3"></div>
+				<div class="col s3"></div>
+				<div class="col s3"></div>
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+</body>
+</html>
